@@ -7,7 +7,7 @@
         <button ng-click="getRandomPet()">Find Random Pet</button>
         <div class="mainContainer">
         <h2 class="petName">{{animal.name.$t}}</h2>
-        <img src="{{animal.media.photos.photo[2].$t}}"/>
+        <img ng-src="{{animal.media.photos.photo[2].$t}}"/>
         </div>
         <p>{{animal.description.$t}}</p>
       </div>
